@@ -51,6 +51,6 @@ const fetchPrice= async(ctype) =>{
      <td>${change}</td>
  </tr>`
 
-    upd = setTimeout(()=>fetchPrice(ctype),10000);
+    upd = setTimeout(()=>fetchPrice(ctype),30000);
 
 }
